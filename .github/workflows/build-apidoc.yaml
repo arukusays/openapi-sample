@@ -10,11 +10,8 @@ jobs:
         with:
           sparse-checkout: sample-api.yaml
           sparse-checkout-cone-mode: false
-      # - uses: actions/setup-node@v3
-      #   with:
-      #     node-version: 18
       - run: npx -y @redocly/cli build-docs sample-api.yaml -o output/sample-api.html
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: sample-apidoc
           path: output/sample-api.html
