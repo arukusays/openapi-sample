@@ -1,6 +1,6 @@
 openapi: 3.0.0
 info:
-  title: OpenAPI Tutorial
+  title: Health API!!
   description: OpenAPI Tutorial by halhorn
   version: 0.0.0
   x-logo:
@@ -17,9 +17,17 @@ servers:
         default: localhost
       port:
         default: '10080'
+tags:
+  - name: health
+    description: |
+      Healthの説明です
+      - 説明1
+      - 説明2
 paths:
   /health:
     get:
+      tags:
+        - health
       operationId: openapitutorial.controller.health.call
       summary: サーバーの状態を返します
       description: サーバーの状態を返します。

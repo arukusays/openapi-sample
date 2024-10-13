@@ -1,6 +1,9 @@
 apis:
+  index:
+    root: index.yaml
+    output: dist/index.yaml
   petstore:
-    root: petstore/openapi-3-1.yaml
+    root: petstore/openapi-3.yaml
     output: dist/petstore-api.yaml
   health:
     root: health/health-api.yaml
