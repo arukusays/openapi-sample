@@ -3,6 +3,10 @@ info:
   title: OpenAPI Tutorial
   description: OpenAPI Tutorial by halhorn
   version: 0.0.0
+  x-logo:
+    url: 'https://redocly.github.io/redoc/example-logo.png'
+    backgroundColor: '#FFFFFF'
+    altText: 'Example logo'
 servers:
   - url: https://example.com/api/v0
     description: プロダクション API
