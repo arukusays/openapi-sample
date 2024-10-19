@@ -1,13 +1,21 @@
+extends:
+  - recommended
+
 apis:
   index:
     root: index.yaml
     output: dist/index.yaml
-    decorators:
-      info-description-override:
-        filePath: ./index-description.md
+    theme:
+      openapi:
+        hideDownloadButton: true
+        disableSearch: true
   petstore:
     root: petstore/openapi-3.yaml
     output: dist/petstore-api.yaml
   health:
     root: health/health-api.yaml
     output: dist/health-api.yaml
+
+theme:
+  openapi:
+    disableSearch: true
