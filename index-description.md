@@ -1,4 +1,6 @@
-Description上書きお試し２３
+はじめに
+![sample_image](./images/sample_image.png)
+つぎに
 
 # Introduction2
 This API is documented in **OpenAPI format** and is based on
@@ -6,6 +8,12 @@ This API is documented in **OpenAPI format** and is based on
 It was **extended** to illustrate features of [generator-openapi-repo](https://github.com/Rebilly/generator-openapi-repo)
 tool and [ReDoc](https://github.com/Redocly/redoc) documentation. In addition to standard
 OpenAPI syntax we use a few [vendor extensions](https://github.com/Redocly/redoc/blob/main/docs/redoc-vendor-extensions.md).
+
+## 二段階目タイトル
+
+### 3段目
+
+## もいちど2段目
 
 # OpenAPI Specification
 This API is documented in **OpenAPI format** and is based on
