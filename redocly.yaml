@@ -2,6 +2,9 @@ apis:
   index:
     root: index.yaml
     output: dist/index.yaml
+    decorators:
+      info-description-override:
+        filePath: ./index-description.md
   petstore:
     root: petstore/openapi-3.yaml
     output: dist/petstore-api.yaml
