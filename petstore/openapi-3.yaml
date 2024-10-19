@@ -47,7 +47,7 @@ info:
   contact:
     name: API Support
     email: apiteam@swagger.io
-    url: https://github.com/Redocly/redoc
+    url: ../redoc-static.html
   x-logo:
     url: 'https://redocly.github.io/redoc/petstore-logo.png'
     altText: Petstore logo
