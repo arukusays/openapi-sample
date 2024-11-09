@@ -7,6 +7,7 @@
 
 <p align="center">
   <img src="sample_image2.png#gh-dark-mode-only" width="150px">
+  <img src="sample_image.png#gh-light-mode-only" width="150px">
 </p>
 
 &nbsp;
