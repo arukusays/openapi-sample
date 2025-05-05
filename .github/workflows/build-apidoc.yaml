@@ -8,10 +8,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          sparse-checkout: sample-api.yaml
-          sparse-checkout-cone-mode: false
-      - run: npx -y @redocly/cli build-docs sample-api.yaml -o output/sample-api.html
+          sparse-checkout: .
+      - run: npx -y @redocly/cli build-docs openapi.yaml -t template.hbs -o output/sample.html
       - uses: actions/upload-artifact@v4
         with:
           name: sample-apidoc
-          path: output/sample-api.html
+          path: output/sample.html
